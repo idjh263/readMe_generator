@@ -24,28 +24,32 @@ const questions = [
     {
         type: 'input',
         message: 'What is the description of your project?',
-        name: 'description'
+        name: 'description',
+        default: ''
     },
     {
         type: 'input',
         message: 'How to install your project?',
-        name: 'installation'
+        name: 'installation',
+        default: ''
     },
     {
         type: 'input',
         message: 'What is the usage information?',
-        name: 'usage'
+        name: 'usage',
+        default: ''
     },
     {
         type: 'input',
         message: 'What are the contributing guidelines?',
         name: 'contribution',
-        default: 'false'
+        default: ''
     },
     {
         type: 'input',
         message: 'What are the test instructions?',
-        name: 'tests'
+        name: 'tests',
+        default: ''
     },
     {
         type: 'list',
@@ -57,7 +61,8 @@ const questions = [
             'Mozilla',
             'GPLv3',
             'Unlicense',
-            'Boost'
+            'Boost', 
+            'None'
         ]
     },
     {
@@ -69,7 +74,7 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
-        default: 'false'
+        default: ''
     }
 ];
 

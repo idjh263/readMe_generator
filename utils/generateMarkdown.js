@@ -78,7 +78,7 @@ function generateMarkdown(data) {
     return `
 
 ##Project Title: 
-<h1 align="center">${data.projectTitle} </h1>
+<h1 align="center">${data.title} </h1>
   
 ![badge]${renderLicenseBadge(data.license)}<br />
 
