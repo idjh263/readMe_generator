@@ -1,7 +1,7 @@
 ##Project Title: 
 <h1 align="center">Readme generator </h1>
   
-![BADGE]https://img.shields.io/badge/License-MIT-yellow.svg
+![alt text]https://img.shields.io/badge/License-MIT-yellow.svg
 <br />
 
 
