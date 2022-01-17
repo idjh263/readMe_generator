@@ -55,7 +55,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     return `
 
-##Project Title: 
+## Project Title: 
 <h1 align="center">${data.title} </h1>
   
 ${renderLicenseBadge(data.license)}
@@ -96,11 +96,9 @@ ${renderLicenseLink(data.license)}<br />
 
 ## Questions
 If you have any questions, please do no hesitate to contact me: 
-✋ ${data.email}<br />
+✉️ ${data.email}<br />
 <br />
-Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
-<br />
-✉️ Email me with any questions: ${data.email}<br /><br />`;
+Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />`;
   }
   
   module.exports = generateMarkdown;
