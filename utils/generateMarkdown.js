@@ -101,6 +101,8 @@ function generateMarkdown(data) {
 ## Usage
 💻 ${data.usage}
 
+![alt text](assets/images/${data.screenshot})
+
 ## License
 ![License:${data.license}]
 
@@ -109,13 +111,14 @@ This application is covered by the ${data.license} license.
 ${renderLicenseLink(data.license)}<br />
 
 ## Contributing
-👪 ${data.contributing}
+👪 ${data.contribution}
 
 ## Tests
 ✏️ ${data.tests}
 
 ## Questions
-✋ ${data.questions}<br />
+If you have any questions, please do no hesitate to contact me: 
+✋ ${data.email}<br />
 <br />
 Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
 <br />

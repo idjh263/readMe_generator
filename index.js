@@ -41,6 +41,12 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Do you have images for the project?',
+        name: 'screenshot',
+        default: ''
+    },
+    {
+        type: 'input',
         message: 'What are the contributing guidelines?',
         name: 'contribution',
         default: ''

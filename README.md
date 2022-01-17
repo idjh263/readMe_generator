@@ -1,13 +1,13 @@
 
 
 ##Project Title: 
-<h1 align="center">undefined </h1>
+<h1 align="center">readme generator </h1>
   
 ![badge]https://img.shields.io/badge/License-MIT-yellow.svg<br />
 
 
 ## Description
-🔍 fss
+🔍 It builds a readme for projects based on user input
 
 ## Table of Contents
 - [Description](#description)
@@ -19,10 +19,12 @@
 - [Questions](#questions)
 
 ## Installation
-💾 fsfsd
+💾 npm install
 
 ## Usage
-💻 fsfsd
+💻 download file then npm install
+
+![alt text](assets/images/readme.png)
 
 ## License
 ![License:MIT]
@@ -32,14 +34,15 @@ This application is covered by the MIT license.
 https://opensource.org/licenses/MIT<br />
 
 ## Contributing
-👪 undefined
+👪 none
 
 ## Tests
-✏️ fsfs
+✏️ none 
 
 ## Questions
-✋ undefined<br />
+If you have any questions, please do no hesitate to contact me: 
+✋ idjh263@gmail.com<br />
 <br />
-Find me on GitHub: [fsfs](https://github.com/fsfs)<br />
+Find me on GitHub: [idjh263](https://github.com/idjh263)<br />
 <br />
-✉️ Email me with any questions: fsfs<br /><br />
+✉️ Email me with any questions: idjh263@gmail.com<br /><br />
