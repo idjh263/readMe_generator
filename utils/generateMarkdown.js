@@ -3,35 +3,13 @@ const fs = require('fs');
 // TODO: Create a function that ckreturns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === 'MIT') {
-    return `https://img.shields.io/badge/License-MIT-yellow.svg`
+  if (!license) {
+    return ``;
+  } else {
+    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
   }
-  if (license === 'GPLv3') {
-    return `https://img.shields.io/badge/License-GPLv3-blue.svg`
-  }
-  if (license === 'Apache') {
-    return `https://img.shields.io/badge/License-Apache_2.0-blue.svg` 
-  }
-  if (license === 'Mozilla') {
-    return `https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg` 
-}
-  if (license === 'Boost') {
-    return `https://img.shields.io/badge/License-Boost_1.0-lightblue.svg` 
-}
-  if (license === 'Unlicense') {
-    return `https://img.shields.io/badge/license-Unlicense-blue.svg` 
-} else {
-  return ``;
-}
 };
   
-  
-//   if (!license) {
-//     return ``;
-//   } else {
-//     return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
-//   }
-// }
 
 // TODO: Create a function that returns the license link
 
@@ -80,8 +58,7 @@ function generateMarkdown(data) {
 ##Project Title: 
 <h1 align="center">${data.title} </h1>
   
-![BADGE]${renderLicenseBadge(data.license)}
-<br />
+${renderLicenseBadge(data.license)}
 
 
 ## Description
@@ -102,7 +79,7 @@ function generateMarkdown(data) {
 ## Usage
 💻 ${data.usage}
 
-![alt text](assets/images/${data.screenshot})
+![alt text](assets/images/${data.images})
 
 ## License
 License:${data.license}

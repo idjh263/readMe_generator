@@ -42,7 +42,7 @@ const questions = [
     {
         type: 'input',
         message: 'Do you have images for the project?',
-        name: 'screenshot',
+        name: 'images',
         default: ''
     },
     {
