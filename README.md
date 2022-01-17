@@ -1,13 +1,12 @@
-
-
 ##Project Title: 
-<h1 align="center">readme generator </h1>
+<h1 align="center">Readme generator </h1>
   
-![badge]https://img.shields.io/badge/License-MIT-yellow.svg<br />
+![BADGE]https://img.shields.io/badge/License-MIT-yellow.svg
+<br />
 
 
 ## Description
-🔍 It builds a readme for projects based on user input
+🔍 It builds a readme for projects based on user input  
 
 ## Table of Contents
 - [Description](#description)
@@ -22,22 +21,22 @@
 💾 npm install
 
 ## Usage
-💻 download file then npm install
+💻 after download and install , answer the questions and it will automatically generate readme file 
 
 ![alt text](assets/images/readme.png)
 
 ## License
-![License:MIT]
+License:MIT
 
 This application is covered by the MIT license. 
 
 https://opensource.org/licenses/MIT<br />
 
 ## Contributing
-👪 none
+👪 email me
 
 ## Tests
-✏️ none 
+✏️ none
 
 ## Questions
 If you have any questions, please do no hesitate to contact me: 
