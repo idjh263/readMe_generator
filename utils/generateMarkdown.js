@@ -80,7 +80,8 @@ function generateMarkdown(data) {
 ##Project Title: 
 <h1 align="center">${data.title} </h1>
   
-![badge]${renderLicenseBadge(data.license)}<br />
+![BADGE]${renderLicenseBadge(data.license)}
+<br />
 
 
 ## Description
@@ -104,7 +105,7 @@ function generateMarkdown(data) {
 ![alt text](assets/images/${data.screenshot})
 
 ## License
-![License:${data.license}]
+License:${data.license}
 
 This application is covered by the ${data.license} license. 
 
