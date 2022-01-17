@@ -1,6 +1,6 @@
 
 
-##Project Title: 
+## Project Title: 
 <h1 align="center">Readme Generator  </h1>
   
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -41,8 +41,6 @@ https://opensource.org/licenses/MIT<br />
 
 ## Questions
 If you have any questions, please do no hesitate to contact me: 
-✋ idjh263@gmail.com<br />
+✉️ idjh263@gmail.com<br />
 <br />
 Find me on GitHub: [idjh263](https://github.com/idjh263)<br />
-<br />
-✉️ Email me with any questions: idjh263@gmail.com<br /><br />
